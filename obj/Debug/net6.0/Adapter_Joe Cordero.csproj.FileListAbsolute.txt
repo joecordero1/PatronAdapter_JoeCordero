@@ -1,0 +1,15 @@
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\bin\Debug\net6.0\Adapter_Joe Cordero.exe
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\bin\Debug\net6.0\Adapter_Joe Cordero.deps.json
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\bin\Debug\net6.0\Adapter_Joe Cordero.runtimeconfig.json
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\bin\Debug\net6.0\Adapter_Joe Cordero.dll
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\bin\Debug\net6.0\Adapter_Joe Cordero.pdb
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\obj\Debug\net6.0\Adapter_Joe Cordero.csproj.AssemblyReference.cache
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\obj\Debug\net6.0\Adapter_Joe Cordero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\obj\Debug\net6.0\Adapter_Joe Cordero.AssemblyInfoInputs.cache
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\obj\Debug\net6.0\Adapter_Joe Cordero.AssemblyInfo.cs
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\obj\Debug\net6.0\Adapter_Joe Cordero.csproj.CoreCompileInputs.cache
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\obj\Debug\net6.0\Adapter_Joe Cordero.dll
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\obj\Debug\net6.0\refint\Adapter_Joe Cordero.dll
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\obj\Debug\net6.0\Adapter_Joe Cordero.pdb
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\obj\Debug\net6.0\Adapter_Joe Cordero.genruntimeconfig.cache
+C:\Users\CLIENTE\Desktop\Adapter_Joe Cordero\obj\Debug\net6.0\ref\Adapter_Joe Cordero.dll
