@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CLIENTE\\Desktop\\Adapter_Joe Cordero\\Adapter_Joe Cordero.csproj",
+      "projectUniqueName": "C:\\Users\\CLIENTE\\Desktop\\PatronAdapter_JoeCordero\\Adapter_Joe Cordero.csproj",
       "projectName": "Adapter_Joe Cordero",
-      "projectPath": "C:\\Users\\CLIENTE\\Desktop\\Adapter_Joe Cordero\\Adapter_Joe Cordero.csproj",
+      "projectPath": "C:\\Users\\CLIENTE\\Desktop\\PatronAdapter_JoeCordero\\Adapter_Joe Cordero.csproj",
       "packagesPath": "C:\\Users\\CLIENTE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CLIENTE\\Desktop\\Adapter_Joe Cordero\\obj\\",
+      "outputPath": "C:\\Users\\CLIENTE\\Desktop\\PatronAdapter_JoeCordero\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

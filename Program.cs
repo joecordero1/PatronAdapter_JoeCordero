@@ -1,9 +1,5 @@
 ﻿using Adapter_Joe_Cordero;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PatrónAdapter_CSharp
 {
@@ -11,27 +7,58 @@ namespace PatrónAdapter_CSharp
     {
         static void Main(string[] args)
         {
-            Motor motor1 = new MotorNaftero();
-            motor1.Arrancar();
-            motor1.Acelerar();
-            motor1.Detener();
-            motor1.CargarCombustible();
+            Motor motor = null;
 
+            Console.WriteLine("Selecciona un motor:");
+            Console.WriteLine("1. MotorNaftero");
+            Console.WriteLine("2. MotorDiesel");
+            Console.WriteLine("3. MotorElectricoAdapter");
+            Console.WriteLine("0. Salir");
 
-            Motor motor2 = new MotorDiesel();
-            motor2.Arrancar();
-            motor2.Acelerar();
-            motor2.Detener();
-            motor2.CargarCombustible();
+            int opcion;
+            while (true)
+            {
+                if (int.TryParse(Console.ReadLine(), out opcion))
+                {
+                    switch (opcion)
+                    {
+                        case 1:
+                            motor = new MotorNaftero();
+                            break;
+                        case 2:
+                            motor = new MotorDiesel();
+                            break;
+                        case 3:
+                            motor = new MotorElectricoAdapter();
+                            break;
+                        case 0:
+                            Environment.Exit(0);
+                            break;
+                        default:
+                            Console.WriteLine("Opción no válida. Por favor, elige una opción válida.");
+                            break;
+                    }
 
+                    if (motor != null)
+                    {
+                        EjecutarMotor(motor);
+                    }
 
-            Motor motor3 = new MotorElectricoAdapter();
-            motor3.Arrancar();
-            motor3.Acelerar();
-            motor3.Detener();
-            motor3.CargarCombustible();
+                    Console.WriteLine("Selecciona otro motor o presiona 0 para salir:");
+                }
+                else
+                {
+                    Console.WriteLine("Opción no válida. Por favor, elige una opción válida.");
+                }
+            }
+        }
 
-            Console.ReadKey();
+        static void EjecutarMotor(Motor motor)
+        {
+            motor.Arrancar();
+            motor.Acelerar();
+            motor.Detener();
+            motor.CargarCombustible();
         }
     }
 }
