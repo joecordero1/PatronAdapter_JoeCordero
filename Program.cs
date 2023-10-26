@@ -41,7 +41,7 @@ namespace PatrónAdapter_CSharp
 
                     if (motor != null)
                     {
-                        EjecutarMotor(motor);
+                        MostrarSubMenuMotor(motor);
                     }
 
                     Console.WriteLine("Selecciona otro motor o presiona 0 para salir:");
@@ -53,12 +53,46 @@ namespace PatrónAdapter_CSharp
             }
         }
 
-        static void EjecutarMotor(Motor motor)
+        static void MostrarSubMenuMotor(Motor motor)
         {
-            motor.Arrancar();
-            motor.Acelerar();
-            motor.Detener();
-            motor.CargarCombustible();
+            int opcion;
+            while (true)
+            {
+                Console.WriteLine("Selecciona una acción para el motor:");
+                Console.WriteLine("1. Arrancar");
+                Console.WriteLine("2. Acelerar");
+                Console.WriteLine("3. Detener");
+                Console.WriteLine("4. Cargar Combustible");
+                Console.WriteLine("0. Volver al menú anterior");
+
+                if (int.TryParse(Console.ReadLine(), out opcion))
+                {
+                    switch (opcion)
+                    {
+                        case 1:
+                            motor.Arrancar();
+                            break;
+                        case 2:
+                            motor.Acelerar();
+                            break;
+                        case 3:
+                            motor.Detener();
+                            break;
+                        case 4:
+                            motor.CargarCombustible();
+                            break;
+                        case 0:
+                            return; // Volver al menú anterior
+                        default:
+                            Console.WriteLine("Opción no válida. Por favor, elige una opción válida.");
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Opción no válida. Por favor, elige una opción válida.");
+                }
+            }
         }
     }
 }
